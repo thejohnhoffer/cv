@@ -1,0 +1,196 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+
+\documentclass[]{deedy-resume-openfont}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     2018-01-17
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     John Hoffer
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{John}{Hoffer}{ 
+%\urlstyle{same}\url{http://hoff.in} \\
+\href{mailto:john@hoff.in}{john@hoff.in}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Harvard College}
+\location{BA: 2016-05 | GPA: 3.51}
+\descript{Concentration: Neurobiology}
+\descript{Secondary: Computer Science}
+\sectionsep
+
+\subsection{Minot High School}
+\location{2012 | Minot, North Dakota}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Current Projects:}
+GLSL \textbullet{} Python \textbullet{} Slurm\\ 
+JavaScript ( D3 \textbullet{} Node \textbullet{} TypeScript ) \\
+\location{Completed Projects:}
+C++ \textbullet{} PHP \textbullet{} SQL \textbullet{} MATLAB \textbullet{} \LaTeX\ \\
+\location{Some Experience:}
+Lua \textbullet{} Haskell \textbullet{} Wolfram \textbullet{} CUDA \\
+\location{Daily Workflow:}
+Bash \textbullet{} Tmux \textbullet{} Vim \textbullet{} RegEx \\
+\sectionsep
+
+\subsection{Design}
+\location{Current Projects:}
+Blender (Python API) \textbullet{} X3D \textbullet{} CSS \\ 
+\location{Frequent Usage:}
+3ds Max \textbullet{} Inkscape \textbullet{} Gimp \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Computer Science}
+Rendering and Image Processing \\
+Dynamic \& Stochastic Processes \\
+Computer Graphics \\
+Visualization \\
+\sectionsep
+
+\subsection{Life Science}
+Computational Neuroscience \\
+Principals of Neuroengineering \\
+Computational Cognitive Neuro. \\
+Cellular Basis of Neural Function \\
+Drug Discovery and Development \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Visual Computing Group}
+\descript{| Fellow }
+\location{February 2016 --- today | Harvard SEAS, Cambridge, MA}
+\vspace{\topsep}
+\begin{tightemize}
+\item Negotiated deliverable endpoints for a major grant evaluation
+\item Automated ray-traced surface renderings of many image formats
+\item Wrote a server to send terabytes of image volume with a gigabyte of memory
+\item Added features to websites to view and edit densely segmented volumes
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Wyss Institute}
+\descript{| Microfabrication Intern}
+\location{February---August 2015 | Boston, MA}
+\begin{tightemize}
+\item Designed components for development of novel microfluidic cell culture assays
+\item Developed and tested improved microscale fabrication procedures
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Massachusetts General Hospital}
+\descript{| Research Intern}
+\location{June---August 2013 | Psychiatric Genetics Unit, Boston, MA}
+\begin{tightemize}
+\item Prepared DNA to correlate cognitive traits with single DNA base pairs
+\item Identified possible genes for future study through a literature review
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Open Source Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Open Source Projects}
+\runsubsection{Sly Markup Language}
+\location{January 2018 | Harvard VCG | \href{https://github.com/Rhoana/3dxp/blob/master/TASKS/readme.md}{Github Link}}
+\begin{tightemize}
+\item Invented a human-friendly format to run code in parallel on Slurm clusters
+\end{tightemize}
+\sectionsep
+\runsubsection{OpenSeadragon GL}
+\location{January 2017 | OpenSeadragon | \href{https://github.com/thejohnhoffer/viaWebGL}{Github Link}}
+\begin{tightemize}
+\item Enabled GPU-accelerated image processing of gigapixel images on the web
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications}
+\runsubsection{Scalable Interactive Visualization for Connectomics
+}
+\location{August 2017 | 2nd Author | MDPI Informatics | \href{http://www.mdpi.com/2227-9709/4/3/29/pdf}{PDF Link}}
+\begin{tightemize}
+\item Designed and analyzed experiments on data transfer  from network file systems
+\item Documented the design and implementation of our servers and interfaces
+\end{tightemize}
+\sectionsep
+\end{minipage} 
+
+\begin{tikzpicture}[remember picture,overlay]
+  \node[anchor=south east,inner sep=0pt] at ($(current page.south east)+(0cm,-2cm)$) {
+\includegraphics[width=440pt,height=440pt]{r0_watermark_25}
+};
+\end{tikzpicture}
+
+\end{document}  \documentclass[]{article}
