@@ -24,10 +24,10 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%     2018-01-17
+%     CURRENT DATE FOR DRAFTS
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
+% \lastupdated
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -37,7 +37,7 @@
 
 \namesection{John}{Hoffer}{ 
 %\urlstyle{same}\url{http://hoff.in} \\
-\href{mailto:john@hoff.in}{john@hoff.in}
+\href{mailto:hof@alumni.harvard.edu}{hof@alumni.harvard.edu} | \href{https://www.linkedin.com/in/john-hoffer-65086aa3/}{LinkedIn}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -55,14 +55,14 @@
 \section{Education} 
 
 \subsection{Harvard College}
-\location{BA: 2016-05 | GPA: 3.51}
+\location{BA: 2016 | GPA: 3.51}
 \descript{Concentration: Neurobiology}
 \descript{Secondary: Computer Science}
 \sectionsep
 
-\subsection{Minot High School}
-\location{2012 | Minot, North Dakota}
-\sectionsep
+% \subsection{Minot High School}
+% \location{2012 | Minot, North Dakota}
+% \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -70,13 +70,14 @@
 
 \section{Skills}
 \subsection{Programming}
-\location{Current Projects:}
+\location{Use on daily basis:}
 GLSL \textbullet{} Python \textbullet{} Slurm\\ 
 JavaScript ( D3 \textbullet{} Node \textbullet{} TypeScript ) \\
-\location{Completed Projects:}
+\location{Use in past projects:}
 C++ \textbullet{} PHP \textbullet{} SQL \textbullet{} MATLAB \textbullet{} \LaTeX\ \\
-\location{Some Experience:}
-Lua \textbullet{} Haskell \textbullet{} Wolfram \textbullet{} CUDA \\
+\location{Learning:}
+Lua \textbullet{} Haskell \textbullet{} Wolfram \\
+CUDA \textbullet{}  .NET \textbullet{} C\# \\
 \location{Daily Workflow:}
 Bash \textbullet{} Tmux \textbullet{} Vim \textbullet{} RegEx \\
 \sectionsep
@@ -124,21 +125,22 @@ Drug Discovery and Development \\
 
 \section{Experience}
 
-\runsubsection{Visual Computing Group}
+\runsubsection{Harvard SEAS}
 \descript{| Fellow }
-\location{February 2016 --- today | Harvard SEAS, Cambridge, MA}
+\location{February 2016 --- current | Visual Computing Group, Cambridge, MA}
 \vspace{\topsep}
 \begin{tightemize}
-\item Negotiated deliverable endpoints for a major grant evaluation
-\item Automated ray-traced surface renderings of many image formats
-\item Wrote a server to send terabytes of image volume with a gigabyte of memory
-\item Added features to websites to view and edit densely segmented volumes
+\item Built a pipeline to render ray-tracings from CNN image reconstructions.
+\item Wrote a web server to handle terabytes of image data efficiently in real-time
+\item Contributed to 5 open source projects
+\item Developed several UIs to give the research community real-time collaborative access to neural reconstructions
+\item Negotiated deliverable APIs for a multi-million dollar grant
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Wyss Institute}
+\runsubsection{Wyss Institute at Harvard}
 \descript{| Microfabrication Intern}
-\location{February---August 2015 | Boston, MA}
+\location{February---August 2015 | Human Organs-on-Chips, Boston, MA}
 \begin{tightemize}
 \item Designed components for development of novel microfluidic cell culture assays
 \item Developed and tested improved microscale fabrication procedures
@@ -155,42 +157,51 @@ Drug Discovery and Development \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Open Source Projects
+%     Key Open Source Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Open Source Projects}
-\runsubsection{Sly Markup Language}
-\location{January 2018 | Harvard VCG | \href{https://github.com/Rhoana/3dxp/blob/master/TASKS/readme.md}{Github Link}}
+\section{Key Open Source Projects}
+\runsubsection{Neuroglancer}
+\location{January 2018 | Google | \href{https://github.com/Rhoana/neuroglancer}{Github Link}}
 \begin{tightemize}
-\item Invented a human-friendly format to run code in parallel on Slurm clusters
+\item Designed and developed editing functionality for a Web UI in use by Google, Harvard, Princeton, and Johns Hopkins.
 \end{tightemize}
 \sectionsep
 \runsubsection{OpenSeadragon GL}
 \location{January 2017 | OpenSeadragon | \href{https://github.com/thejohnhoffer/viaWebGL}{Github Link}}
 \begin{tightemize}
-\item Enabled GPU-accelerated image processing of gigapixel images on the web
+\item Enabled real-time parallel image processing on large-scale images in browser.
 \end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
+%     JOURNAL PUBLICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Publications}
+\section{Journal Publications}
 \runsubsection{Scalable Interactive Visualization for Connectomics
 }
-\location{August 2017 | 2nd Author | MDPI Informatics | \href{http://www.mdpi.com/2227-9709/4/3/29/pdf}{PDF Link}}
+\location{August 2017 | Informatics | \href{http://www.mdpi.com/2227-9709/4/3/29/pdf}{PDF Link}}
 \begin{tightemize}
-\item Designed and analyzed experiments on data transfer  from network file systems
+\item Designed and analyzed experiments on data transfer from network file systems
 \item Documented the design and implementation of our servers and interfaces
 \end{tightemize}
 \sectionsep
 \end{minipage} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     NEURON PICTURE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{tikzpicture}[remember picture,overlay]
   \node[anchor=south east,inner sep=0pt] at ($(current page.south east)+(0cm,-2cm)$) {
 \includegraphics[width=440pt,height=440pt]{r0_watermark_25}
 };
 \end{tikzpicture}
+
+\begin{textblock}{50}(140,200)
+\color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont 
+Ray-tracing of $100\mu m$-long neural processes captured at $4nm$ resolution.
+\end{textblock}
 
 \end{document}  \documentclass[]{article}
