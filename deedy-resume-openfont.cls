@@ -14,8 +14,8 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
 \usepackage[absolute]{textpos}
-\usepackage[UKenglish]{babel}
-\usepackage[UKenglish]{isodate}
+\usepackage[english]{babel}
+\usepackage[english]{isodate}
 \usepackage{fontspec,xltxtra,xunicode}
 \usepackage{tikz}
 \usepackage{graphicx}
