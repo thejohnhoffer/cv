@@ -1,7 +1,7 @@
-diff --git a/docs/john-hoffer/spring-2018/harvard-seas/computer-graphics-connectomics.html b/docs/john-hoffer/spring-2018/harvard-seas/computer-graphics-connectomics.html
+diff --git a/main.html b/main.html
 index 9ad7a56..b13acfa 100644
---- a/docs/john-hoffer/spring-2018/harvard-seas/computer-graphics-connectomics.html
-+++ b/docs/john-hoffer/spring-2018/harvard-seas/computer-graphics-connectomics.html
+--- a/main.html
++++ b/main.html
 @@ -475,7 +475,7 @@ Link</a><br />  <ul class="itemize1">
          interfaces</li></ul>                                                                         
                                                                                                         
