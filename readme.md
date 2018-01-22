@@ -3,8 +3,8 @@
 ```
 htxelatex main.tex
 
-mv main.* docs/john-hoffer/spring-2018/harvard-seas/
-mv docs/john-hoffer/spring-2018/harvard-seas/main.tex .
-mv docs/john-hoffer/spring-2018/harvard-seas/main.pdf .
+mv main.html docs/john-hoffer/spring-2018/harvard-seas/computer-graphics-connectomics.html
+mv main.css docs/john-hoffer/spring-2018/harvard-seas/
+mv main*.svg docs/john-hoffer/spring-2018/harvard-seas/
 ```
 
