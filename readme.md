@@ -1,3 +1,8 @@
+### Copy pdf to docs
+```
+cp main.pdf docs/
+```
+
 ### Compile to HTML instead of PDF
 
 ```
